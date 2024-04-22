@@ -6,15 +6,15 @@
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
-        "command": false,
-        "console": false,
-        "extrakey": false,
-        "mousekey": false,
-        "nkro": false
+        "command": true,
+        "console": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
     },
     "matrix_pins": {
-        "cols": ["GP5", "GP6", "GP7", "GP8"],
-        "rows": ["GP0", "GP1", "GP2", "GP3","GP4"]
+        "cols": ["GP29", "GP28", "GP27", "GP26"],
+        "rows": ["GP2", "GP3", "GP4", "GP5","GP6"]
     },
     "processor": "RP2040",
     "url": "",
@@ -41,7 +41,7 @@
                 {"matrix": [3, 1],"label": "2","x": 1,"y": 3},
                 {"matrix": [3, 2],"label": "3","x": 2,"y": 3},
                 {"matrix": [3, 3],"label": "Enter","x": 3,"y": 3,"h": 2},
-                {"matrix": [4, 0],"label": "0","x": 0,"y": 4,"w": 2},
+                {"matrix": [4, 1],"label": "0","x": 0,"y": 4,"w": 2},
                 {"matrix": [4, 2],"label": ".","x": 2,"y": 4}
                 ]
 
